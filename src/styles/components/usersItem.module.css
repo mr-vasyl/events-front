@@ -1,0 +1,19 @@
+.userItem {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+
+	text-align: center;
+
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.userItem h2 {
+	font-weight: 600;
+}
+.date {
+	color: #0070f3;
+}

@@ -1,0 +1,13 @@
+.catalogTitle {
+	font-size: 1.2rem;
+	padding: 10px 0 10px;
+}
+.empty {
+	font-size: 1rem;
+}
+.catalogList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	justify-content: center;
+}

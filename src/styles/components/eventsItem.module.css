@@ -1,0 +1,36 @@
+.eventItem {
+	display: flex;
+	flex-direction: column;
+	width: 290px;
+	min-height: 200px;
+
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 5px;
+}
+.wrapper h2 {
+	font-weight: 600;
+}
+.desc {
+	height: 70px;
+}
+.date {
+	color: #0070f3;
+}
+.organizer {
+	font-weight: 600;
+}
+.footerEvents {
+	font-weight: 600;
+	margin-top: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
